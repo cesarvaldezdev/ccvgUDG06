@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
@@ -56,5 +57,9 @@
   "bugs": {
     "url": "https://github.com/MatchaFierce/ccvgUDG06/issues"
   },
-  "homepage": "https://github.com/MatchaFierce/ccvgUDG06#readme"
+  "homepage": "https://github.com/MatchaFierce/ccvgUDG06#readme",
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  }
 }
