@@ -22,7 +22,7 @@
     "@angular/router": "^7.2.15",
     "angular-in-memory-web-api": "^0.8.0",
     "core-js": "^2.6.10",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.10.0",
